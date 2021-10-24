@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&family=Poppins:wght@100&display=swap');
+
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+header{
+    height: 40vh;
+    background-color: rgb(175, 41, 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+header h1{
+    border-bottom: solid 4px black;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+header div h2{
+    font-size: 2.7rem;
+}
+
+nav{
+    margin-bottom: 45px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+ h2{
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:80vw;
+}
+
+main div .carta{
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaTendencias, .cajaReseñas{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+.cajaTendencias h2{
+    margin-top: 50px;
+}
+
+.tendencias img{
+    width: 100%;
+    height: 200px;
+}
+
+.cajaReseñas img{
+    width: 400px;
+    height: 400px;
+}
+
+.cajaTendencias .carta{
+    border: solid 7px black;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(175, 41, 41);
+}
+
+.cajaTendencias .carta h3{
+    font-size: 1.5rem;
+}
+
+.cajaTendencias .carta img{
+    width: 100%;
+    height: 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(175, 41, 41);
+    margin-top: 50px;
+}
+
+
+.contacto form div{
+    width: 30%;
+    background-color: ghostwhite;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+main{
+    height: 1200px;
+}
+
+.tendencias{
+    margin-top: 50px;
+}
+
+.cajaTendencias h2, .cajaReseñas h2{
+    padding-top: 50px;
+}
+
+.mainInicio{
+    height: 1300px;
+}
+
+.mainContacto{
+    height: 500px;
+}
